@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PieChartActivity" >
+
+    <TextView
+        android:id="@+id/partb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/parta"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#00f800"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="PartB"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/partc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/partb"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#FF0000"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="PartC"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/partd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/partc"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#FFFF00"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="PartD"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <TextView
+        android:id="@+id/parte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/partd"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#404040"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="PartE"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <LinearLayout
+        android:id="@+id/pie_container"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="83dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/parta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:background="#0000FF"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="PartA"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+</RelativeLayout>
